@@ -31,6 +31,10 @@ hr {
     line-height: 140%;
 }
 
+.linki:hover {
+    color: #FFFFFF;
+}
+
 .gilaki {
     background: #A259FF;
     border-radius: 20px;
