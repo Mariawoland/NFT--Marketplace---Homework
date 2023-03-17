@@ -1,0 +1,159 @@
+.hidden-2 {
+    display: none;
+}
+
+.section-2 {
+    background: #3B3B3B;
+    border-bottom: 2px solid #2B2B2B;
+    ;
+}
+
+.Avatar-edit {
+    position: relative;
+    top: -50%;
+    border: 2px solid #2B2B2B;
+    border-radius: 22px;
+}
+
+.headline-1 {
+    font-weight: 600;
+    font-size: 53px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.button-201 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A259FF;
+    gap: 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.button-202 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    font-weight: 600;
+    width: 100%;
+}
+
+.text-1 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.text-2 {
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.text-3 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    color: #858584;
+}
+
+.seqcia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    padding-bottom: 13px;
+}
+
+.seqcia a {
+    color: #858584;
+}
+
+.seqcia button {
+    background: #3B3B3B;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Space Mono';
+    color: #FFFFFF;
+}
+
+.seqcia:hover {
+    border-bottom: 1px solid #858584;
+}
+
+.seqcia:hover a {
+    color: #FFFFFF;
+}
+
+.seqcia:hover button {
+    background: #858584;
+}
+
+.statia-101 {
+    padding: 0;
+    border-radius: 20px;
+    border: none;
+    background: #2B2B2B;
+
+}
+
+
+@media (max-width: 500px) {
+
+    .hidden-1,
+    .hidden-3 {
+        display: none;
+    }
+
+    .hidden-2 {
+        display: block;
+    }
+
+    .Avatar-edit {
+        width: 28%;
+        left: 36%;
+    }
+
+    .headline-1 {
+        font-size: 28px;
+        padding: 0 15px 20px;
+    }
+
+    .button-201,
+    .button-202 {
+        font-size: 17px;
+        gap: 5px;
+    }
+
+    .text-2 {
+        font-size: 17.5px;
+    }
+
+    .seqcia {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .button-201,
+    .button-202 {
+        font-size: 14px;
+        gap: 5px;
+        margin-bottom: 15px;
+    }
+}
