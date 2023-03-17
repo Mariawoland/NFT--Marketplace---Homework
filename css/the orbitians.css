@@ -1,0 +1,160 @@
+.photo-1 {
+    width: 100% !important;
+}
+
+.hidden-2,
+.hidden-4 {
+    display: none;
+}
+
+
+.clock {
+    padding: 30px 15px;
+    gap: 10px;
+    width: 100%;
+    height: 220px;
+    background: rgba(59, 59, 59, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+.button-101 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+    background: #A259FF;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.button-102 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 30px;
+    gap: 12px;
+    background: #3B3B3B;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.button-103 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 2px solid #A259FF;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.flex-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+
+.text-1 {
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.text-2 {
+    font-size: 22px;
+    color: #858584;
+}
+
+.text-3 {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 22px;
+    color: #858584;
+}
+
+.text-4 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.text-5 {
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.text-6 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #858584;
+}
+
+.text-7 {
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 500px) {
+
+    .hidden-1,
+    .hidden-3 {
+        display: none !important;
+    }
+
+    .hidden-2 {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hidden-4 {
+        display: block;
+    }
+
+
+    .flex-1 {
+        flex-direction: column;
+    }
+
+    .teqsti-6 {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    .teqsti-6 {
+        font-size: 17px;
+    }
+
+    .text-1 {
+        font-size: 40px;
+    }
+
+    .text-5,
+    .text-2,
+    .text-3,
+    .text-4 {
+        font-size: 16px;
+    }
+
+}
